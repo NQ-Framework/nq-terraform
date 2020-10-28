@@ -16,7 +16,7 @@ provider "google" {
 }
 
 module "nq-server" {
-  source                = "../../modules/cloud-run"
+  source                = "../../services/server"
   project               = var.project
   env                   = local.env
   server_name           = var.server_name
