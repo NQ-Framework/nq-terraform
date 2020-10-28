@@ -29,3 +29,4 @@ override.tf.json
 # example: *tfplan*
 
 nq-framework-e6b01ad3b116.json
+backend-config.tf

@@ -1,9 +1,9 @@
-output "server-id" {
-  value = module.nq-server.id
+output "server_id" {
+  value = module.nq-server.server_id
 }
-output "server-status" {
-  value = module.nq-server.status
+output "server_status" {
+  value = module.nq-server.server_status
 }
-output "server-url" {
-  value = module.nq-server.url
+output "server_url" {
+  value = module.nq-server.server_url
 }
